@@ -9,3 +9,6 @@ This is a list of the configurations in this repo with a path pointing towards t
 
 ### Nautilus context menu 'Open with...'
 ~/.local/share/nautilus-python/extensions/nautilus-context-menu.md
+
+### Zsh configurations and plugins
+~/zsh.md
