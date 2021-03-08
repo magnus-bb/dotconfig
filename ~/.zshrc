@@ -1,4 +1,4 @@
-#* COPIED FROM DEFAULT BASHRC
+#* Copied from Oh My Bash
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
@@ -44,7 +44,7 @@ xterm*|rxvt*)
     ;;
 esac
 
-# enable color support of ls and also add handy aliases
+#* Enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
@@ -70,28 +70,28 @@ fi
 
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+#* ----------------------
+#* OWN SETTINGS FROM HERE
+#* ----------------------
+
+#* Alias definitions
 if [ -f ~/.zsh/aliases.zsh ]; then
     . ~/.zsh/aliases.zsh
 fi
+# Set aliases in this file, you can rename it if you like
 
-
-#* OWN SETTINGS FROM HERE
-export PATH="$HOME/.local/bin:$PATH"
-
-
-#* Starship theme
+#* Starship prompt
 eval "$(starship init zsh)"
+# Adds cool information about your environment and git
 
-# Load syntax highlight plugin
+#* Syntax highlight plugin
 source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+# Red means you misspelled something, or don't have the command in your PATH etc
 
-# Load completion plugin
+#* Completion plugin
 source $HOME/.zsh/completion.zsh
+# Better completion on TAB
 
 # Initialize the completion system
 autoload -Uz compinit
@@ -107,21 +107,40 @@ fi
 # Enhanced form of menu completion called `menu selection'
 zmodload -i zsh/complist
 
-# Load autosuggestions
+#* Load autosuggestions
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Press RIGHT to accept suggestion
 
-# History settings from oh-my-zsh
+#* History settings from oh-my-zsh
 source $HOME/.zsh/history.zsh
+# Search with CTRL + R
 
 #* Fuzzy search with z
 . ~/.zsh/z/z.sh
+# Fuzzy cd with 'z <location>''
 
-# fix for the % rendering on new tabs
-unsetopt PROMPT_SP
-
-# Greeting with system information
+#* Greeting with system information
 neofetch
+# Automatically on terminal boot
 
-# Make sure ctrl-left/right jumps words
+#* Make sure ctrl-left/right jumps words
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
+
+#* Make sure ctrl-backspace/delete deletes whole words
+bindkey '^H' backward-kill-word
+bindkey '^[[3;5~' kill-word
+
+#* Enable autocorrect & make opts readable - I'd rather use TheFuck
+#setopt correct
+#export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r$reset_color?
+# [Yes, No, Abort, Edit] "
+# Will try and fix misspellings
+
+#* TheFuck
+source $HOME/.zsh/thefuck.zsh
+# Makes esc+esc bind to thefuck and initializes it
+
+#* Enable globbing / wildcard substitutions
+set -o GLOB_SUBST
+# Can use globs in variables to get a list of matching files etc.

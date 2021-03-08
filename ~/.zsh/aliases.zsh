@@ -28,6 +28,9 @@ alias gps='git push'
 alias grh='git reset --hard HEAD~1'
 alias grs='git reset --soft HEAD~1'
 alias gs='git status'
+alias gu='git restore --staged' # unstage
+alias gr='git restore'
+alias gb='git branch'
 
 #* software shortcuts
 alias python=python3
