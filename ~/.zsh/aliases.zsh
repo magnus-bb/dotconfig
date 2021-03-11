@@ -33,5 +33,14 @@ alias gu='git restore --staged' # unstage
 alias gr='git restore'
 alias gb='git branch'
 
+# creates new branch of name $1 and syncs it with origin
+gnb() { # git new branch
+  if [ -n "$1" ]
+  then
+    git checkout -b "$1"
+    git push origin -u "$1"
+  fi
+}
+
 #* software shortcuts
 alias python=python3
