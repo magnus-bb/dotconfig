@@ -144,3 +144,7 @@ source $HOME/.zsh/thefuck.zsh
 #* Enable globbing / wildcard substitutions
 set -o GLOB_SUBST
 # Can use globs in variables to get a list of matching files etc.
+
+#* Go
+# Workspace bin and go installation bins
+export PATH=$PATH:$HOME/dev/go/bin:/usr/local/go/bin

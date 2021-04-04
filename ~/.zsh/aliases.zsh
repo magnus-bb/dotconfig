@@ -18,8 +18,6 @@ alias rm='rm -i' # ask confirmation
 
 #* git
 alias g='git'
-alias a='add'
-alias c='commit'
 alias gaa='git add .'
 alias gc='git commit'
 alias gcm='git commit -m'
@@ -32,6 +30,7 @@ alias gs='git status'
 alias gu='git restore --staged' # unstage
 alias gr='git restore'
 alias gb='git branch'
+alias gcb='git checkout'
 
 # creates new branch of name $1 and syncs it with origin
 gnb() { # git new branch
@@ -42,5 +41,16 @@ gnb() { # git new branch
   fi
 }
 
-#* software shortcuts
+#* python
 alias python=python3
+alias py=python3
+
+act() { # activate a venv
+  if [ -n "$1" ]
+  then
+    source "$1"/bin/activate
+  fi
+}
+
+#* NPM
+alias dev='npm run dev'
