@@ -147,4 +147,9 @@ set -o GLOB_SUBST
 
 #* Go
 # Workspace bin and go installation bins
-export PATH=$PATH:$HOME/dev/go/bin:/usr/local/go/bin
+export PATH=$PATH:/usr/share/code/bin:$HOME/dev/go/bin:/usr/local/go/bin
+
+#* Android
+export PATH=$PATH:$HOME/android-studio/bin:$HOME/Android/Sdk/tools/bin:$HOME/Android/Sdk/emulator/
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export ANDROID_HOME=$HOME/Android/Sdk

@@ -40,15 +40,32 @@ gnb() { # git new branch
     git push origin -u "$1"
   fi
 }
+# deletes branch of name $1 and syncs it with origin
+gdb() { # git new branch
+  if [ -n "$1" ]
+  then
+    git push origin -d "$1"
+    git branch -d "$1"
+  fi
+}
 
 #* python
 alias python=python3
 alias py=python3
 
-act() { # activate a venv
+# activate a venv
+act() {
   if [ -n "$1" ]
   then
     source "$1"/bin/activate
+  fi
+}
+
+# pip install and add to requirements.txt
+pyinst() { 
+  if [ -n "$1" ]
+  then
+    pip install "$1" && pip freeze | grep "$1" >> requirements.txt
   fi
 }
 
