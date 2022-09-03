@@ -107,8 +107,11 @@ source $HOME/.zsh/history.zsh
 . ~/.zsh/z/z.sh
 # Fuzzy cd with 'z <location>''
 
-#* Greeting with system information
-neofetch
+#* Greeting
+# neofetch
+# OR
+export PATH=$PATH:$HOME/.local/bin # install location of fetching
+fetching -r
 # Automatically on terminal boot
 
 #* Make sure ctrl-left/right jumps words

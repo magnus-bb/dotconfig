@@ -9,9 +9,14 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+# Better ls
+alias ls="lsd"
+alias ll='lsd -alF'
+alias la='lsd -A'
+alias l='lsd -CF'
+
+# Better cat with syntax highlighting, git integration, and line numbers
+alias cat="batcat --paging=never" # use -p to remove line numbers (for copy-pasting)
 
 alias nuke="rm -rf"
 alias rm='rm -i' # ask confirmation
