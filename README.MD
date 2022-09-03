@@ -1,4 +1,4 @@
-# Configurations for my Pop!_OS installation
+# Configurations for Linux distros
 
 ## Installation
 If no other readmes are present, assume that the files are just to be placed inside the directory that matches the folder structure on this repo. Everything inside `~` should match your `/home/USERNAME/`, and everything inside `root` should match your `/`.
