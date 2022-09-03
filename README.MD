@@ -1,5 +1,13 @@
 # Configurations for Linux distros
 
+## Cloning this repo
+If you wish to clone this repo, use:
+```sh
+git clone --recurse-submodules
+```
+
+To get the zsh-plugin files that are included as submodules.
+
 ## Installation
 If no other readmes are present, assume that the files are just to be placed inside the directory that matches the folder structure on this repo. Everything inside `~` should match your `/home/USERNAME/`, and everything inside `root` should match your `/`.
 
