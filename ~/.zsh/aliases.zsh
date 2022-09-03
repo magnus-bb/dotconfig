@@ -71,3 +71,12 @@ pyinst() {
 
 #* NPM
 alias dev='npm run dev'
+
+#* KITTY
+# Show images in term
+alias icat="kitty +kitten icat" # followed by image file name
+# Click files to edit or download (also works on remote)
+alias lslinks="ls -a --hyperlink=auto" # then CTRL + SHIFT + click to download / open file
+# Download / upload files from / to remote (also works with directories)
+alias download="kitty +kitten transfer" # then local path and remote path
+alias upload="kitty +kitten transfer --direction=receive" # then remote path and local path # then local path and remote path

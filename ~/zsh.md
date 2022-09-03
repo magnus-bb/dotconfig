@@ -1,4 +1,4 @@
-# zsh configs and plugins
+# Zsh configuration and plugins
 
 ## Installation
 Move `.zshrc` and `.zsh/` into your home folder. And see [Features](#features) for more information.
