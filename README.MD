@@ -1,4 +1,4 @@
-# Configurations for Linux distros
+# Configurations and software for Linux distros
 
 ## Cloning this repo
 If you wish to clone this repo, use:
@@ -20,7 +20,9 @@ Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/downlo
 This font is already configured for Kitty, but must be applied in VSCode manually.
 
 ### Nautilus context menu 'Open with...'
-The only configuration needed is already included in `~/.local/share/nautilus-python/extensions/code-nautilus.py`
+The only configuration needed is already included in `~/.local/share/nautilus-python/extensions/*`
+
+The files in this directory will add right click menu options to open directories in Kitty and open files and directories in VSCode.
 
 Remember to reload nautilus / Files after setting these.
 
