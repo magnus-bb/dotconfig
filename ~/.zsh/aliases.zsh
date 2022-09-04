@@ -13,7 +13,7 @@ alias ....='cd ../../..'
 alias ls="lsd"
 alias ll='lsd -alF'
 alias la='lsd -A'
-alias l='lsd -CF'
+alias lsh='lsd -a --hyperlink=auto' # --hyperlink=auto allows click-to-download with kitty (also works on remote)
 
 # Better cat with syntax highlighting, git integration, and line numbers
 alias cat="batcat --paging=never" # use -p to remove line numbers (for copy-pasting)
@@ -80,8 +80,6 @@ alias dev='npm run dev'
 #* KITTY
 # Show images in term
 alias icat="kitty +kitten icat" # followed by image file name
-# Click files to edit or download (also works on remote)
-alias lslinks="ls -a --hyperlink=auto" # then CTRL + SHIFT + click to download / open file
 # Download / upload files from / to remote (also works with directories)
 alias download="kitty +kitten transfer" # then local path and remote path
 alias upload="kitty +kitten transfer --direction=receive" # then remote path and local path # then local path and remote path
