@@ -30,6 +30,12 @@ The Kitty terminal emulator can be installed with:
 sudo apt-get -y install kitty
 ```
 
+Remember to set Kitty as the default terminal emulator with:
+```sh
+sudo update-alternatives --config x-terminal-emulator
+```
+
+
 The only other configuration needed can be found in `~/.config/kitty.conf` as well as the aliases in `~/.zsh/aliases.zsh`.
 
 ### Pacstall
