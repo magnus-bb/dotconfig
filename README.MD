@@ -40,7 +40,7 @@ Allows you to set shell themes.
 ## Theming
 
 ### Wallpapers
-Wallpapers can be found in `~/Pictures/wallpapers`.
+Wallpapers can be found in `~/Pictures/wallpapers`. Wallpapers can be set as a slideshow in Shotwell. Select all desired wallpapers and click `File` > `Set as Desktop Slideshow...`.
 
 ### [Colloid Dark Nord GTK theme](https://github.com/vinceliuice/Colloid-gtk-theme)
 This theme can be found in `~/.themes/`. Remember to install gnome-tweaks and User Themes to apply this.
