@@ -11,6 +11,15 @@ To make sure you get the zsh-plugin files that are included as submodules.
 ## Installation
 If no other readmes are present, assume that the files are just to be placed inside the directory that matches the folder structure on this repo. Everything inside `~` should match your `/home/USERNAME/`.
 
+## Theming
+All themes, cursors, and icons can be found in `~/.themes/` and `~/.icons/`. Remember to install gnome-tweaks and User Themes to apply them.
+### [Colloid Dark Nord GTK theme](https://github.com/vinceliuice/Colloid-gtk-theme)
+
+### [Colloid Nord icon theme](https://github.com/vinceliuice/Colloid-icon-theme)
+
+### [Nordzy cursors](https://github.com/alvatip/Nordzy-cursors)
+
+
 ## Configurations and software
 This is a list of the software and configurations in this repo.
 
