@@ -152,13 +152,13 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 #* PNPM
-export PNPM_HOME="/home/au604657/.local/share/pnpm"
+export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
 #* BUN
 export BUN_INSTALL="$HOME/.bun" 
 export PATH="$BUN_INSTALL/bin:$PATH"
-[ -s "/home/magnus/.bun/_bun" ] && source "/home/magnus/.bun/_bun" # bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun" # bun completions
 
 #* Ranger
 export EDITOR="code" # Default editor for plaintext files
