@@ -19,7 +19,6 @@ All themes, cursors, and icons can be found in `~/.themes/` and `~/.icons/`. Rem
 
 ### [Nordzy cursors](https://github.com/alvatip/Nordzy-cursors)
 
-
 ## Configurations and software
 This is a list of the software and configurations in this repo.
 
