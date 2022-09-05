@@ -159,3 +159,6 @@ export PATH="$PNPM_HOME:$PATH"
 export BUN_INSTALL="$HOME/.bun" 
 export PATH="$BUN_INSTALL/bin:$PATH"
 [ -s "/home/magnus/.bun/_bun" ] && source "/home/magnus/.bun/_bun" # bun completions
+
+#* Ranger
+export EDITOR="code" # Default editor for plaintext files
