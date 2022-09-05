@@ -35,7 +35,7 @@ Scroll on the top panel to change workspace.
 Shows you the workspaces you are using.
 
 ### [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-Allows you to save themes for users instead of all users.
+Allows you to set shell themes.
 
 ###
 
