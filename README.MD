@@ -22,6 +22,9 @@ Tiling window manager.
 ### [Hide Activities Button](https://extensions.gnome.org/extension/744/hide-activities-button/)
 Does what it says.
 
+### [Clipboard History](https://extensions.gnome.org/extension/4839/clipboard-history/)
+Shows what you have had in your clipboard and allows you to re-copy old clipboard items.
+
 ### [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 Quick menu to choose input / output devices for sound.
 
