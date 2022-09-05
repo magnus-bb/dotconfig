@@ -37,15 +37,19 @@ Shows you the workspaces you are using.
 ### [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 Allows you to set shell themes.
 
-###
-
 ## Theming
-All themes, cursors, and icons can be found in `~/.themes/` and `~/.icons/`. Remember to install gnome-tweaks and User Themes to apply them.
+
+### Wallpapers
+Wallpapers can be found in `~/Pictures/wallpapers`.
+
 ### [Colloid Dark Nord GTK theme](https://github.com/vinceliuice/Colloid-gtk-theme)
+This theme can be found in `~/.themes/`. Remember to install gnome-tweaks and User Themes to apply this.
 
 ### [Colloid Nord icon theme](https://github.com/vinceliuice/Colloid-icon-theme)
+Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
 
 ### [Nordzy cursors](https://github.com/alvatip/Nordzy-cursors)
+Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
 
 ## Configurations and software
 This is a list of the software and configurations in this repo.
