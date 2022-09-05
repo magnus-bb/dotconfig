@@ -31,7 +31,7 @@ class KittyExtension(GObject.GObject, Nautilus.MenuProvider):
     def get_file_items(self, window, files):
         item = Nautilus.MenuItem(
             name='KittyOpen',
-            label='Open In ' + KITTYNAME + ' ',
+            label='Open In ' + KITTYNAME,
             tip='Opens the selected directories with Kitty',
         )
 
