@@ -11,6 +11,31 @@ To make sure you get the zsh-plugin files that are included as submodules.
 ## Installation
 If no other readmes are present, assume that the files are just to be placed inside the directory that matches the folder structure on this repo. Everything inside `~` should match your `/home/USERNAME/`.
 
+## GNOME extensions
+
+### [Frippery move clock](https://extensions.gnome.org/extension/2/move-clock/)
+Moves clock to the top right.
+
+### [gTile](https://extensions.gnome.org/extension/28/gtile/)
+Tiling window manager.
+
+### [Hide Activities Button](https://extensions.gnome.org/extension/744/hide-activities-button/)
+Does what it says.
+
+### [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+Quick menu to choose input / output devices for sound.
+
+### [Top Panel Workspace Scroll](https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/)
+Scroll on the top panel to change workspace.
+
+### [Workspace Indicator](https://extensions.gnome.org/extension/21/workspace-indicator/)
+Shows you the workspaces you are using.
+
+### [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+Allows you to save themes for users instead of all users.
+
+###
+
 ## Theming
 All themes, cursors, and icons can be found in `~/.themes/` and `~/.icons/`. Remember to install gnome-tweaks and User Themes to apply them.
 ### [Colloid Dark Nord GTK theme](https://github.com/vinceliuice/Colloid-gtk-theme)
