@@ -13,6 +13,9 @@ If no other readmes are present, assume that the files are just to be placed ins
 
 ## GNOME extensions
 
+### [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
+Cool window-switching with alt+tab.
+
 ### [Frippery move clock](https://extensions.gnome.org/extension/2/move-clock/)
 Moves clock to the top right.
 
@@ -45,11 +48,16 @@ Wallpapers can be found in `~/Pictures/wallpapers`. Wallpapers can be set as a s
 ### [Colloid Dark Nord GTK theme](https://github.com/vinceliuice/Colloid-gtk-theme)
 This theme can be found in `~/.themes/`. Remember to install gnome-tweaks and User Themes to apply this.
 
+To get Firefox to use this theme, open Firefox, right click the toolbar and click 'Customize Toolbar...' and uncheck the 'Title Bar' checkbox in the bottom right.
+
 ### [Colloid Nord icon theme](https://github.com/vinceliuice/Colloid-icon-theme)
 Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
 
 ### [Nordzy cursors](https://github.com/alvatip/Nordzy-cursors)
 Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
+
+### [Full WhiteSur theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) (icons, GDM, etc)
+If you like the look of MacOS.
 
 ## Configurations and software
 This is a list of the software and configurations in this repo.
