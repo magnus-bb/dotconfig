@@ -21,7 +21,7 @@ Be aware that this will overwrite any existing files with the same name as the f
 ## GNOME extensions
 
 ### [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock)
-More dock customization.
+More dock customization. Also allows for blur my shell to work with the dock (in panel mode works best).
 
 ### [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
 Cool window-switching with alt+tab.
@@ -52,6 +52,8 @@ Allows you to set shell themes.
 
 ### [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 Adds blurred top bar etc.
+
+I recommend setting brightness a bit higher, adding blur to Dash to Dock (in panel mode), and using with WhiteSur theme. Also adding application blur to terminal app.
 
 ## Theming
 
