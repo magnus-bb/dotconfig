@@ -11,7 +11,17 @@ To make sure you get the zsh-plugin files that are included as submodules.
 ## Installation
 If no other readmes are present, assume that the files are just to be placed inside the directory that matches the folder structure on this repo. Everything inside `~` should match your `/home/USERNAME/`.
 
+That means that you can copy all configurations from this repo by cloning this repo into your home directory (`~`) and executing the following from your home directory:
+```sh
+sudo cp -ri dotconfig/~/* .
+```
+
+Be aware that this will overwrite any existing files with the same name as the files in this repo, but will prompt you before overwriting. **I recommend copying files and directories manually**.
+
 ## GNOME extensions
+
+### [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock)
+More dock customization.
 
 ### [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
 Cool window-switching with alt+tab.
@@ -39,6 +49,9 @@ Shows you the workspaces you are using.
 
 ### [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 Allows you to set shell themes.
+
+### [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+Adds blurred top bar etc.
 
 ## Theming
 
