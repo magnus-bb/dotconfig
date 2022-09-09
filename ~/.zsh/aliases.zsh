@@ -83,6 +83,7 @@ alias icat="kitty +kitten icat" # followed by image file name
 # Download / upload files from / to remote (also works with directories)
 alias download="kitty +kitten transfer" # then local path and remote path
 alias upload="kitty +kitten transfer --direction=receive" # then remote path and local path # then local path and remote path
+alias sshkitty="kitty +kitten ssh" # fixes ssh issues by copying terminfo files to the server
 
 #* Misc.
 alias weather="curl wttr.in"
