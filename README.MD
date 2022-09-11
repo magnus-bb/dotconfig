@@ -26,6 +26,19 @@ More dock customization. Also allows for blur my shell to work with the dock (in
 ### [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
 Cool window-switching with alt+tab.
 
+### [Compiz windows effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/)
+Makes windows flexible when moving.
+
+These settings seems to work well for me:
+Friction: 4.5
+Spring: 1.0
+Speedup Factor: 8.0
+Mass: 80
+X Tiles: 6
+Y Tiles: 6
+Maximize effect: on
+Resize effect: off
+
 ### [Frippery move clock](https://extensions.gnome.org/extension/2/move-clock/)
 Moves clock to the top right.
 
@@ -93,6 +106,9 @@ The only other configuration needed is already included in `~/.local/share/nauti
 The files in this directory will add right click menu options to open directories in Kitty and open files and directories in VSCode.
 
 Remember to reload nautilus / Files after setting these with `nautilus -q`.
+
+### [Nautilus terminal](https://github.com/flozz/nautilus-terminal)
+Embeds a terminal with your default shell in Nautilus, which can be toggled with `F4`.
 
 ### [Kitty terminal emulator](https://sw.kovidgoyal.net/kitty/)
 The Kitty terminal emulator can be installed with:
