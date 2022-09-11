@@ -66,49 +66,48 @@ Allows you to set shell themes.
 ### [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 Adds blurred top bar etc.
 
-I recommend setting brightness a bit higher, adding blur to Dash to Dock (in panel mode), and using with WhiteSur theme. Also adding application blur to terminal app.
+I recommend setting brightness to 80% and blur to 20%, adding blur to Dash to Dock (in panel mode), and using with WhiteSur theme.
 
 ## Theming
 
 ### Wallpapers
 Wallpapers can be found in `~/Pictures/wallpapers`. Wallpapers can be set as a slideshow in Shotwell. Select all desired wallpapers and click `File` > `Set as Desktop Slideshow...`.
 
-### [Colloid Dark Nord GTK theme](https://github.com/vinceliuice/Colloid-gtk-theme)
-This theme can be found in `~/.themes/`. Remember to install gnome-tweaks and User Themes to apply this.
-
-To get Firefox to use this theme, open Firefox, right click the toolbar and click 'Customize Toolbar...' and uncheck the 'Title Bar' checkbox in the bottom right.
-
 ### [Colloid Nord icon theme](https://github.com/vinceliuice/Colloid-icon-theme)
 Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
 
-### [Nordzy cursors](https://github.com/alvatip/Nordzy-cursors)
+### [Vimix cursors](https://github.com/vinceliuice/Vimix-cursors)
 Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
 
 ### [Full WhiteSur theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) (icons, GDM, etc)
-If you like the look of MacOS.
+If you like the look of MacOS. This theme works very well with many apps.
 
-## Configurations and software
-This is a list of the software and configurations in this repo.
+### [Mira conky widget (tweaked)](https://github.com/closebox73/Chepeus/#mira-theme)
+All files can be found in `~/.config/conky/Mira`. Remember to install conky and conky manager to use this.
 
-### Fira Code Nerd Font
-Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip).
+Also install `jq` with:
 
-This font is already configured for Kitty, but must be applied in VSCode manually.
-
-### Nautilus context menu 'Open with/as...'
-Right click to open Nautilus as admin can be installed with:
 ```sh
-sudo apt install nautilus-admin
+sudo nala install jq
 ```
 
-The only other configuration needed is already included in `~/.local/share/nautilus-python/extensions/*`
+And install the Manjari font
 
-The files in this directory will add right click menu options to open directories in Kitty and open files and directories in VSCode.
+## Software
+This is a list of the software and configurations in this repo.
 
-Remember to reload nautilus / Files after setting these with `nautilus -q`.
+### [Conky](https://github.com/brndnmtthws/conky)
+Conky displays system information on your desktop. Install conky with:
 
-### [Nautilus terminal](https://github.com/flozz/nautilus-terminal)
-Embeds a terminal with your default shell in Nautilus, which can be toggled with `F4`.
+```sh
+sudo nala install conky
+```
+
+To use conky widgets, install [`conky-manager2`](https://github.com/zcot/conky-manager2) from their documentation.
+
+Then open conky manager settings and add `~/.config/conky` to the list of locations where conky widgets are located.
+
+
 
 ### [Kitty terminal emulator](https://sw.kovidgoyal.net/kitty/)
 The Kitty terminal emulator can be installed with:
@@ -175,7 +174,7 @@ curl https://bun.sh/install | bash
 
 ENV vars are already set in `~/.zshrc`
 
-### Zsh
+## Zsh
 Install Zsh with: 
 ```sh
 sudo sudo nala install zsh
@@ -282,9 +281,7 @@ sudo nala update && sudo nala install ranger caca-utils highlight atool w3m popp
 ### Hotkeys
 `.zshrc` is configured to force CTRL + BACKSPACE / DELETE to delete whole words and CTRL + LEFT / RIGHT to jump whole words, no matter the terminal used (some terms already have this).
 
-### Correction on commands
-
-#### [TheFuck](https://github.com/nvbn/thefuck)
+### [TheFuck](https://github.com/nvbn/thefuck)
 **Type `fuck` or double tap ESC when a command is misspelled or wrong.**
 
 This works VERY well with git and other software that tries to guess your intended command, whereas the 'correct' option just handles misspellings.
@@ -302,3 +299,31 @@ files='*.js'
 echo $files
 ```
 Will give you a list of all javascript files in your current dir.
+
+## Fonts
+
+### Fira Code Nerd Font
+Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip).
+
+This font is already configured for Kitty, but must be applied in VSCode manually.
+
+### Manjari
+Download the font from [this link])(https://fonts.google.com/download?family=Manjari).
+
+This font is used for the Mira conky widget, and not otherwise needed.
+
+## Misc.
+### Nautilus context menu 'Open with/as...'
+Right click to open Nautilus as admin can be installed with:
+```sh
+sudo apt install nautilus-admin
+```
+
+The only other configuration needed is already included in `~/.local/share/nautilus-python/extensions/*`
+
+The files in this directory will add right click menu options to open directories in Kitty and open files and directories in VSCode.
+
+Remember to reload nautilus / Files after setting these with `nautilus -q`.
+
+### [Nautilus terminal](https://github.com/flozz/nautilus-terminal)
+Embeds a terminal with your default shell in Nautilus, which can be toggled with `F4`.
