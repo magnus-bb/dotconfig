@@ -77,6 +77,10 @@ pyinst() {
 #* NPM
 alias dev='npm run dev'
 
+#* NALA
+alias apt='nala'
+alias apt-get='nala'
+
 #* KITTY
 # Show images in term
 alias icat="kitty +kitten icat" # followed by image file name
