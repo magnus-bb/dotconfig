@@ -213,7 +213,7 @@ You can substitute the destination with any other directory in your `$PATH`.
 
 Install with this curl command:
 ```bash
-curl -fsSL https://starship.rs/install.sh | bash
+curl -fsSL https://starship.rs/install.sh | sh
 ```
 
 The only configuration needed is already included in the `~/.zshrc` and `~/.config/starship.toml`.
