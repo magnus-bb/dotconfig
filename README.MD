@@ -76,6 +76,9 @@ Wallpapers can be found in `~/Pictures/wallpapers`. Wallpapers can be set as a s
 ### [Colloid Nord icon theme](https://github.com/vinceliuice/Colloid-icon-theme)
 Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
 
+### [Numix Circle icons](https://github.com/numixproject/numix-icon-theme-circle)
+Both the regular Numix icons and the circle addon can be found in `~/.icons/`.
+
 ### [Vimix cursors](https://github.com/vinceliuice/Vimix-cursors)
 Can be found in `~/.icons/`. Remember to install gnome-tweaks to apply this.
 
