@@ -73,7 +73,7 @@ Does what it says.
 
 Does not work well when blurring dock with Blur My Shell, since it resets the blur effect after using the overview.
 
-If you use the default GNOME, you will need to remap some shortcuts for CTRL + Super + arrow keys to change workspaces.
+If you use the default GNOME, you will need to remap some shortcuts for Control + Super + arrow keys to change workspaces and Shift + Super + arrow keys to move windows to other workspaces. In dconf-editor, these are `/org/gnome/desktop/wm/keybindings/switch-to-workspace-up` and `/org/gnome/desktop/wm/keybindings/switch-to-workspace-down` as well as `/org/gnome/desktop/wm/keybindings/move-to-workspace-up` and `/org/gnome/desktop/wm/keybindings/move-to-workspace-down`.
 
 ## Theming
 
