@@ -68,6 +68,13 @@ Adds blurred top bar etc.
 
 I recommend setting brightness to 80% and blur to 20%, adding blur to Dash to Dock (in panel mode), and using with WhiteSur theme.
 
+### [Vertical workspaces](https://github.com/G-dH/vertical-workspaces)
+Does what it says.
+
+Does not work well when blurring dock with Blur My Shell, since it resets the blur effect after using the overview.
+
+If you use the default GNOME, you will need to remap some shortcuts for CTRL + Super + arrow keys to change workspaces.
+
 ## Theming
 
 ### Wallpapers
