@@ -39,6 +39,9 @@ Y Tiles: 6
 Maximize effect: on
 Resize effect: off
 
+### [Burn my windows](https://github.com/Schneegans/Burn-My-Windows)
+Adds effects to opening and closing windows.
+
 ### [Frippery move clock](https://extensions.gnome.org/extension/2/move-clock/)
 Moves clock to the top right.
 
