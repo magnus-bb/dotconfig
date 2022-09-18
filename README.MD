@@ -20,6 +20,9 @@ Be aware that this will overwrite any existing files with the same name as the f
 
 ## GNOME extensions
 
+### [Bluetooth Quick Connect](https://extensions.gnome.org/extension/1401/bluetooth-quick-connect/)
+Connect to usb devices from the top panel.
+
 ### [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock)
 More dock customization. Also allows for blur my shell to work with the dock (in panel mode works best).
 
