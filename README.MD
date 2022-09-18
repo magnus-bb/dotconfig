@@ -20,6 +20,9 @@ Be aware that this will overwrite any existing files with the same name as the f
 
 ## GNOME extensions
 
+### [MRPIS Indicator](https://extensions.gnome.org/extension/1379/mpris-indicator-button/)
+Control media player from top panel.
+
 ### [Bluetooth Quick Connect](https://extensions.gnome.org/extension/1401/bluetooth-quick-connect/)
 Connect to usb devices from the top panel.
 
