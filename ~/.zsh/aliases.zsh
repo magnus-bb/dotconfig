@@ -91,4 +91,4 @@ alias sshkitty="kitty +kitten ssh" # fixes ssh issues by copying terminfo files 
 
 #* Misc.
 alias weather="curl wttr.in"
-alias dotenv="export $(cat -p .env | xargs)" # sources .env file from cwd
+alias dotenv='export $(cat -p .env | xargs)' # sources .env file from cwd
