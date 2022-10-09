@@ -196,7 +196,7 @@ ENV vars are already set in `~/.zshrc`
 ## Zsh
 Install Zsh with: 
 ```sh
-sudo sudo nala install zsh
+sudo nala install zsh
 ```
 
 Then set Zsh as default shell with:
