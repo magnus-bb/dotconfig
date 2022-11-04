@@ -1,4 +1,4 @@
-# Configurations and software for Linux distros
+# Configurations and software for Ubuntu-based distros
 
 ## Cloning this repo
 If you wish to clone this repo, use:
