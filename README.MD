@@ -327,7 +327,7 @@ Will give you a list of all javascript files in your current dir.
 ## Fonts
 
 ### Fira Code Nerd Font
-Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip).
+Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip).
 
 This font is already configured for Kitty, but must be applied in VSCode manually.
 
