@@ -327,7 +327,7 @@ Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/downlo
 This font is already configured for Kitty, but must be applied in VSCode manually.
 
 ### Manjari
-Download the font from [this link])(https://fonts.google.com/download?family=Manjari).
+Download the font from [this link](https://fonts.google.com/download?family=Manjari).
 
 This font is used for the Mira conky widget, and not otherwise needed.
 
