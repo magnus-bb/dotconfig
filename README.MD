@@ -311,6 +311,11 @@ Configuration is included, but TheFuck will have to be installed with:
 sudo nala install thefuck
 ```
 
+If you have any issues because of the `distutils` package missing, it can be fixed with:
+```sh
+sudo nala install python3-distutils -y
+```
+
 ### Glob support
 You can use wildcards (`*`) in variables to e.g. show all matching files:
 ```bash
