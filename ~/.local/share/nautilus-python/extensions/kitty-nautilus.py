@@ -53,7 +53,7 @@ class KittyExtension(GObject.GObject, Nautilus.MenuProvider):
     def get_background_items(self, window, file_):
         item = Nautilus.MenuItem(
             name='KittyOpenBackground',
-            label='Open in ' + KITTYNAME + ' ',
+            label='Open in ' + KITTYNAME,
             tip='Opens Kitty in the current directory',
         )
         item.connect('activate', self.launch_kitty, [file_])
