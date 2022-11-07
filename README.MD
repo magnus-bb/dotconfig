@@ -311,6 +311,11 @@ Configuration is included, but TheFuck will have to be installed with:
 sudo nala install thefuck
 ```
 
+If you have any issues because of the `distutils` package missing, it can be fixed with:
+```sh
+sudo nala install python3-distutils -y
+```
+
 ### Glob support
 You can use wildcards (`*`) in variables to e.g. show all matching files:
 ```bash
@@ -322,7 +327,7 @@ Will give you a list of all javascript files in your current dir.
 ## Fonts
 
 ### Fira Code Nerd Font
-Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip).
+Get the font from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip).
 
 This font is already configured for Kitty, but must be applied in VSCode manually.
 
