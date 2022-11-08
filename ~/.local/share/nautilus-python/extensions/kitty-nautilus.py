@@ -25,7 +25,7 @@ class KittyExtension(GObject.GObject, Nautilus.MenuProvider):
         for dir in dirs:
             dirpath = dir.get_location().get_path()
             safepath = '"' + dirpath + '"'
-            call(KITTY + ' ' + safepath + ' &', shell=True)
+            call(KITTY + ' -d ' + safepath + ' &', shell=True)
 
 
     def get_file_items(self, window, files):
