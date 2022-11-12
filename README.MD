@@ -139,6 +139,7 @@ Remember to set Kitty as the default terminal emulator with:
 sudo update-alternatives --config x-terminal-emulator
 ```
 
+Kitty comes installed with a Nord color theme.
 
 The only other configuration needed can be found in `~/.config/kitty.conf` as well as the aliases in `~/.zsh/aliases.zsh`.
 
