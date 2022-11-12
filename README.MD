@@ -262,6 +262,8 @@ The only configuration needed is already included in the `~/.zshrc` and `~/.conf
 
 Configuration is already included, and files are already installed in `.zsh/fast-syntax-highlighting/`.
 
+**TODO:** Check out `zsh-syntax-highlighting` instead (comes with Garuda) and check which is better.
+
 ### Completion plugin
 **Better completion on tabs.**
 
