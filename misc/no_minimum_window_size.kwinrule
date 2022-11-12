@@ -1,5 +1,0 @@
-[Disable minimum size of all windows]
-Description=Disable minimum size of all windows
-minsize=1,1
-minsizerule=2
-types=1

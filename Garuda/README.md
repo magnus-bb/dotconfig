@@ -1,0 +1,2 @@
+# Garuda
+**TODO:** Add install guides for shared configs / software and create a version of `.zshrc`, `aliases.zsh` and the zsh-plugins that work best with Garuda. E.g. some plugins are already installed on Garuda, and some things are already defined in Garudas `.zshrc`.
