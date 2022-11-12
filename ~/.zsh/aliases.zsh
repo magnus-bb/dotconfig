@@ -8,6 +8,8 @@ alias aliases='cat ~/.zsh/aliases.zsh'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 
 # Better ls
 alias ls="lsd"

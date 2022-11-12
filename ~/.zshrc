@@ -103,9 +103,8 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.zsh/history.zsh
 # Search with CTRL + R
 
-#* Fuzzy search with z
+#* Direct cd with z
 . ~/.zsh/z/z.sh
-# Fuzzy cd with 'z <location>''
 
 #* Greeting
 # neofetch
