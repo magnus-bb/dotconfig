@@ -257,6 +257,8 @@ curl -fsSL https://starship.rs/install.sh | sh
 
 The only configuration needed is already included in the `~/.zshrc` and `~/.config/starship.toml`.
 
+### TODO: add https://github.com/zsh-users/zsh-history-substring-search
+
 ### Syntax highlight plugin
 **Adds color feedback that tells you whether a command/package exists/is spelled correctly.**
 
