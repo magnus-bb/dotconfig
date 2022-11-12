@@ -139,6 +139,7 @@ Remember to set Kitty as the default terminal emulator with:
 sudo update-alternatives --config x-terminal-emulator
 ```
 
+Kitty comes installed with a Nord color theme.
 
 The only other configuration needed can be found in `~/.config/kitty.conf` as well as the aliases in `~/.zsh/aliases.zsh`.
 
@@ -257,10 +258,14 @@ curl -fsSL https://starship.rs/install.sh | sh
 
 The only configuration needed is already included in the `~/.zshrc` and `~/.config/starship.toml`.
 
+### TODO: add https://github.com/zsh-users/zsh-history-substring-search
+
 ### Syntax highlight plugin
 **Adds color feedback that tells you whether a command/package exists/is spelled correctly.**
 
 Configuration is already included, and files are already installed in `.zsh/fast-syntax-highlighting/`.
+
+**TODO:** Check out `zsh-syntax-highlighting` instead (comes with Garuda) and check which is better.
 
 ### Completion plugin
 **Better completion on tabs.**
