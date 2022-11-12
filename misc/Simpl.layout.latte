@@ -22,7 +22,7 @@ raiseOnDesktopChange=false
 screensGroup=1
 settingsComplexity=4
 timerHide=500
-timerShow=0
+timerShow=200
 viewType=0
 visibility=4
 wallpaperplugin=org.kde.image
@@ -164,7 +164,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][130][Applets][133][Configuration]
-PreloadWeight=14
+PreloadWeight=6
 
 [Containments][130][Applets][134][Configuration]
 PreloadWeight=42
@@ -264,7 +264,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][14][Applets][129][Configuration]
-PreloadWeight=85
+PreloadWeight=77
 SystrayContainmentId=130
 
 [Containments][14][Applets][164]
@@ -364,7 +364,7 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][14][Applets][195][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][14][Applets][195][Configuration][ConfigDialog]
 DialogHeight=852
@@ -378,7 +378,7 @@ immutability=1
 plugin=org.kde.latte.spacer
 
 [Containments][14][Applets][198][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][14][Applets][198][Configuration][ConfigDialog]
 DialogHeight=570
@@ -388,6 +388,16 @@ DialogWidth=760
 containmentType=Latte
 lengthPercentage=100
 lengthType=Percentage
+
+[Containments][14][Applets][199]
+immutability=1
+plugin=org.kde.plasma.colorpicker
+
+[Containments][14][Applets][199][Configuration]
+PreloadWeight=60
+
+[Containments][14][Applets][199][Configuration][General]
+history=#bf616a
 
 [Containments][14][ConfigDialog]
 DialogHeight=600
@@ -401,7 +411,7 @@ activeWindowFilter=FromAllScreens
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=176;188;195;198;185;129;172
+appletOrder=176;188;195;198;185;199;129;172
 appletShadowsEnabled=false
 autoSizeEnabled=false
 dragActiveWindowEnabled=true
@@ -451,7 +461,7 @@ color=lightskyblue
 customBackground=
 customTextColor=
 disableBordersForMaximizedWindows=true
-icon=dr460nized-start
+icon=panel
 lastUsedActivity=
 launchers=
 popUpMargin=0
