@@ -1,6 +1,7 @@
 
 #* terminal
 alias zshreload='source ~/.zshrc'
+alias zshrc='${=EDITOR} ~/.zshrc' # edit zshrc
 alias s='sudo'
 alias aliases='cat ~/.zsh/aliases.zsh'
 

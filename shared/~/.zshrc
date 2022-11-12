@@ -9,6 +9,10 @@ fi
 eval "$(starship init zsh)"
 # Adds cool information about your environment and git
 
+#* dotenv plugin
+source $HOME/.zsh/dotenv.zsh
+# When you cd into a directory, the .env-file's environment vars will be automatically loaded. 
+
 #* Syntax highlight plugin
 source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 # Red means you misspelled something, or don't have the command in your PATH etc
