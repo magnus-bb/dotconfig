@@ -137,7 +137,7 @@ PreloadWeight=0
 activityId=
 formfactor=2
 immutability=1
-lastScreen=11
+lastScreen=10
 layoutId=
 location=4
 plugin=org.kde.plasma.private.systemtray
@@ -157,14 +157,14 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][130][Applets][132][Configuration]
-PreloadWeight=0
+PreloadWeight=22
 
 [Containments][130][Applets][133]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][130][Applets][133][Configuration]
-PreloadWeight=6
+PreloadWeight=0
 
 [Containments][130][Applets][134][Configuration]
 PreloadWeight=42
@@ -222,7 +222,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][130][Applets][190][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][130][ConfigDialog]
 DialogHeight=2072
@@ -264,7 +264,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][14][Applets][129][Configuration]
-PreloadWeight=77
+PreloadWeight=88
 SystrayContainmentId=130
 
 [Containments][14][Applets][164]
@@ -328,11 +328,11 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][14][Applets][185][Configuration]
-PreloadWeight=0
+PreloadWeight=25
 
 [Containments][14][Applets][185][Configuration][ConfigDialog]
-DialogHeight=791
-DialogWidth=972
+DialogHeight=2097
+DialogWidth=1897
 
 [Containments][14][Applets][185][Configuration][General]
 launchers=
@@ -359,45 +359,49 @@ lengthPercentage=100
 lengthPixels=38
 lengthType=Percentage
 
-[Containments][14][Applets][195]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][14][Applets][195][Configuration]
-PreloadWeight=2
-
-[Containments][14][Applets][195][Configuration][ConfigDialog]
-DialogHeight=852
-DialogWidth=1137
-
-[Containments][14][Applets][195][Configuration][General]
-showOnlyCurrentScreen=true
-
-[Containments][14][Applets][198]
-immutability=1
-plugin=org.kde.latte.spacer
-
-[Containments][14][Applets][198][Configuration]
-PreloadWeight=2
-
-[Containments][14][Applets][198][Configuration][ConfigDialog]
-DialogHeight=570
-DialogWidth=760
-
-[Containments][14][Applets][198][Configuration][General]
-containmentType=Latte
-lengthPercentage=100
-lengthType=Percentage
-
 [Containments][14][Applets][199]
 immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][14][Applets][199][Configuration]
-PreloadWeight=60
+PreloadWeight=41
 
 [Containments][14][Applets][199][Configuration][General]
-history=#bf616a
+history=#2e3440,#bf616a
+
+[Containments][14][Applets][202]
+immutability=1
+plugin=com.github.tilorenz.compact_pager
+
+[Containments][14][Applets][202][Configuration]
+PreloadWeight=100
+
+[Containments][14][Applets][202][Configuration][Appearance]
+bgColor=46,52,64
+bgColorChecked=true
+displayBorder=false
+fontFamily=Fira Sans Condensed
+fontSize=1
+
+[Containments][14][Applets][202][Configuration][ConfigDialog]
+DialogHeight=2097
+DialogWidth=3816
+
+[Containments][14][Applets][202][Configuration][General]
+forceLayout=Compact
+
+[Containments][14][Applets][205]
+immutability=1
+plugin=org.kde.latte.spacer
+
+[Containments][14][Applets][205][Configuration][ConfigDialog]
+DialogHeight=2097
+DialogWidth=1897
+
+[Containments][14][Applets][205][Configuration][General]
+containmentType=Latte
+lengthPercentage=100
+lengthType=Percentage
 
 [Containments][14][ConfigDialog]
 DialogHeight=600
@@ -411,7 +415,7 @@ activeWindowFilter=FromAllScreens
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=176;188;195;198;185;199;129;172
+appletOrder=176;188;202;205;185;199;129;172
 appletShadowsEnabled=false
 autoSizeEnabled=false
 dragActiveWindowEnabled=true
@@ -439,7 +443,7 @@ tasksUpgraded=true
 themeColors=SmartThemeColors
 thickMargin=0
 titleTooltips=false
-userBlocksColorizingApplets=176;172;185;129
+userBlocksColorizingApplets=176;172;185;129;202
 windowColors=TouchingWindowColors
 zoomLevel=0
 
