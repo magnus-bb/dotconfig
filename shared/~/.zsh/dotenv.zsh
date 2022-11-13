@@ -1,5 +1,8 @@
 # Stolen from https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dotenv
 
+# Location for the cache of allowed / disallowed .env files
+ZSH_CACHE_DIR=$HOME/.cache
+
 # Filename of the dotenv file to look for
 : ${ZSH_DOTENV_FILE:=.env}
 
