@@ -224,13 +224,23 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][130][Applets][190][Configuration]
 PreloadWeight=0
 
+[Containments][130][Applets][207]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][130][Applets][207][Configuration]
+PreloadWeight=55
+
+[Containments][130][Applets][207][Configuration][General]
+showPercentage=true
+
 [Containments][130][ConfigDialog]
-DialogHeight=2072
-DialogWidth=1021
+DialogHeight=2121
+DialogWidth=3840
 
 [Containments][130][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.clipboard
-hiddenItems=Garuda System Maintenance,jamesdsp,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.networkmanagement
+extraItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.clipboard,org.kde.plasma.battery
+hiddenItems=Garuda System Maintenance,jamesdsp,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.battery
 iconSpacing=6
 knownItems=org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume
 shownItems=org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth
@@ -264,7 +274,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][14][Applets][129][Configuration]
-PreloadWeight=88
+PreloadWeight=100
 SystrayContainmentId=130
 
 [Containments][14][Applets][164]
@@ -287,13 +297,6 @@ use24hFormat=2
 [Containments][14][Applets][164][Configuration][ConfigDialog]
 DialogHeight=510
 DialogWidth=680
-
-[Containments][14][Applets][172]
-immutability=1
-plugin=org.kde.plasma.battery
-
-[Containments][14][Applets][172][Configuration]
-PreloadWeight=0
 
 [Containments][14][Applets][176]
 immutability=1
@@ -380,7 +383,7 @@ PreloadWeight=100
 bgColor=46,52,64
 bgColorChecked=true
 displayBorder=false
-fontFamily=Fira Sans Condensed
+fontFamily=FontAwesome
 fontSize=1
 
 [Containments][14][Applets][202][Configuration][ConfigDialog]
@@ -403,6 +406,27 @@ containmentType=Latte
 lengthPercentage=100
 lengthType=Percentage
 
+[Containments][14][Applets][206]
+immutability=1
+plugin=org.kde.plasma.betterinlineclock
+
+[Containments][14][Applets][206][Configuration]
+PreloadWeight=100
+
+[Containments][14][Applets][206][Configuration][Appearance]
+customOffsetX=51.78571428571429
+customSpacing=3.1785714285714284
+enabledCalendarPlugins=/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so
+fixedFont=true
+fontFamily=FontAwesome
+fontSize=18
+showWeekNumbers=true
+use24hFormat=2
+
+[Containments][14][Applets][206][Configuration][ConfigDialog]
+DialogHeight=2121
+DialogWidth=3840
+
 [Containments][14][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
@@ -415,7 +439,7 @@ activeWindowFilter=FromAllScreens
 advanced=false
 alignment=10
 alignmentUpgraded=true
-appletOrder=176;188;202;205;185;199;129;172
+appletOrder=176;188;202;205;185;199;129;206
 appletShadowsEnabled=false
 autoSizeEnabled=false
 dragActiveWindowEnabled=true
@@ -443,7 +467,7 @@ tasksUpgraded=true
 themeColors=SmartThemeColors
 thickMargin=0
 titleTooltips=false
-userBlocksColorizingApplets=176;172;185;129;202
+userBlocksColorizingApplets=176;185;129;202
 windowColors=TouchingWindowColors
 zoomLevel=0
 
