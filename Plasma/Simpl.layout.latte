@@ -157,17 +157,14 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][130][Applets][132][Configuration]
-PreloadWeight=22
+PreloadWeight=5
 
 [Containments][130][Applets][133]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][130][Applets][133][Configuration]
-PreloadWeight=0
-
-[Containments][130][Applets][134][Configuration]
-PreloadWeight=42
+PreloadWeight=5
 
 [Containments][130][Applets][135]
 immutability=1
@@ -179,22 +176,16 @@ PreloadWeight=0
 [Containments][130][Applets][135][Shortcuts]
 global=
 
-[Containments][130][Applets][136][Configuration]
-PreloadWeight=42
-
-[Containments][130][Applets][138][Configuration]
-PreloadWeight=42
-
 [Containments][130][Applets][139]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][130][Applets][139][Configuration]
-PreloadWeight=0
+PreloadWeight=25
 
 [Containments][130][Applets][139][Configuration][ConfigDialog]
-DialogHeight=2072
-DialogWidth=3828
+DialogHeight=1377
+DialogWidth=2537
 
 [Containments][130][Applets][152]
 immutability=1
@@ -217,22 +208,22 @@ plugin=org.kde.kscreen
 [Containments][130][Applets][157][Configuration]
 PreloadWeight=0
 
-[Containments][130][Applets][190]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
-[Containments][130][Applets][190][Configuration]
-PreloadWeight=0
-
 [Containments][130][Applets][207]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][130][Applets][207][Configuration]
-PreloadWeight=55
+PreloadWeight=7
 
 [Containments][130][Applets][207][Configuration][General]
 showPercentage=true
+
+[Containments][130][Applets][208]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][130][Applets][208][Configuration]
+PreloadWeight=34
 
 [Containments][130][ConfigDialog]
 DialogHeight=2121
@@ -274,29 +265,8 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][14][Applets][129][Configuration]
-PreloadWeight=100
+PreloadWeight=89
 SystrayContainmentId=130
-
-[Containments][14][Applets][164]
-immutability=1
-plugin=org.kde.plasma.betterinlineclock
-
-[Containments][14][Applets][164][Configuration]
-PreloadWeight=0
-
-[Containments][14][Applets][164][Configuration][Appearance]
-customDateFormat=d MMM
-customSpacing=3.114754098360656
-dateFormat=customDate
-displayTimezoneAsCode=false
-fixedFont=true
-fontSize=18
-showWeekNumbers=true
-use24hFormat=2
-
-[Containments][14][Applets][164][Configuration][ConfigDialog]
-DialogHeight=510
-DialogWidth=680
 
 [Containments][14][Applets][176]
 immutability=1
@@ -331,16 +301,17 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][14][Applets][185][Configuration]
-PreloadWeight=25
+PreloadWeight=5
 
 [Containments][14][Applets][185][Configuration][ConfigDialog]
-DialogHeight=2097
+DialogHeight=1389
 DialogWidth=1897
 
 [Containments][14][Applets][185][Configuration][General]
 launchers=
 maxStripes=1
 middleClickAction=ToggleMinimized
+onlyGroupWhenFull=false
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
 wheelEnabled=false
@@ -353,21 +324,20 @@ plugin=org.kde.latte.spacer
 PreloadWeight=0
 
 [Containments][14][Applets][188][Configuration][ConfigDialog]
-DialogHeight=2097
-DialogWidth=2466
+DialogHeight=677
+DialogWidth=1417
 
 [Containments][14][Applets][188][Configuration][General]
 containmentType=Latte
 lengthPercentage=100
-lengthPixels=38
-lengthType=Percentage
+lengthPixels=18
 
 [Containments][14][Applets][199]
 immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][14][Applets][199][Configuration]
-PreloadWeight=41
+PreloadWeight=5
 
 [Containments][14][Applets][199][Configuration][General]
 history=#2e3440,#bf616a
@@ -377,7 +347,7 @@ immutability=1
 plugin=com.github.tilorenz.compact_pager
 
 [Containments][14][Applets][202][Configuration]
-PreloadWeight=100
+PreloadWeight=52
 
 [Containments][14][Applets][202][Configuration][Appearance]
 bgColor=46,52,64
@@ -397,21 +367,24 @@ forceLayout=Compact
 immutability=1
 plugin=org.kde.latte.spacer
 
+[Containments][14][Applets][205][Configuration]
+PreloadWeight=2
+
 [Containments][14][Applets][205][Configuration][ConfigDialog]
-DialogHeight=2097
-DialogWidth=1897
+DialogHeight=677
+DialogWidth=1417
 
 [Containments][14][Applets][205][Configuration][General]
 containmentType=Latte
 lengthPercentage=100
-lengthType=Percentage
+lengthPixels=18
 
 [Containments][14][Applets][206]
 immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][14][Applets][206][Configuration]
-PreloadWeight=100
+PreloadWeight=57
 
 [Containments][14][Applets][206][Configuration][Appearance]
 customOffsetX=51.78571428571429
@@ -467,7 +440,7 @@ tasksUpgraded=true
 themeColors=SmartThemeColors
 thickMargin=0
 titleTooltips=false
-userBlocksColorizingApplets=176;185;129;202
+userBlocksColorizingApplets=176;185;129;202;199;206
 windowColors=TouchingWindowColors
 zoomLevel=0
 
