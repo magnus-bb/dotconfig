@@ -74,3 +74,10 @@ Remember to reload nautilus / Files after setting these with `nautilus -q`.
 
 ### [Nautilus terminal](https://github.com/flozz/nautilus-terminal)
 Embeds a terminal with your default shell in Nautilus, which can be toggled with `F4`.
+
+### Super + right click to resize windows
+Simply run the following in a shell:
+
+```sh
+gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
+```
