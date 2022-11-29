@@ -78,7 +78,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][13][Applets][210][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 SystrayContainmentId=211
 
 [Containments][13][Applets][224]
@@ -86,7 +86,7 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][13][Applets][224][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][13][Applets][224][Configuration][ConfigDialog]
 DialogHeight=570
@@ -100,9 +100,11 @@ immutability=1
 plugin=com.github.tilorenz.compact_pager
 
 [Containments][13][Applets][225][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][13][Applets][225][Configuration][Appearance]
+bgColor=46,52,64
+bgColorChecked=true
 displayBorder=false
 fontSize=1
 
@@ -119,7 +121,7 @@ immutability=1
 plugin=org.kde.plasma.kickerdash
 
 [Containments][13][Applets][226][Configuration]
-PreloadWeight=85
+PreloadWeight=72
 
 [Containments][13][Applets][226][Configuration][ConfigDialog]
 DialogHeight=570
@@ -136,7 +138,7 @@ immutability=1
 plugin=org.kde.latte.spacer
 
 [Containments][13][Applets][231][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][13][Applets][231][Configuration][ConfigDialog]
 DialogHeight=570
@@ -152,7 +154,7 @@ immutability=1
 plugin=org.kde.latte.spacer
 
 [Containments][13][Applets][232][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][13][Applets][232][Configuration][ConfigDialog]
 DialogHeight=570
@@ -168,7 +170,7 @@ immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
 [Containments][13][Applets][234][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][13][Applets][234][Configuration][Appearance]
 customSpacing=5.7857142857142865
@@ -189,7 +191,7 @@ immutability=1
 plugin=org.kde.latte.spacer
 
 [Containments][13][Applets][238][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][13][Applets][238][Configuration][ConfigDialog]
 DialogHeight=570
@@ -240,7 +242,7 @@ tasksUpgraded=true
 themeColors=SmartThemeColors
 thickMargin=10
 titleTooltips=false
-userBlocksColorizingApplets=116;226;225;224;210;234
+userBlocksColorizingApplets=116;226;225;224;234;210
 windowColors=TouchingWindowColors
 zoomLevel=0
 
@@ -279,7 +281,7 @@ screensGroup=0
 timerHide=700
 timerShow=0
 viewType=0
-visibility=2
+visibility=4
 wallpaperplugin=org.kde.image
 
 [Containments][14][Applets][179]
@@ -298,7 +300,7 @@ immutability=1
 plugin=org.kde.latte.plasmoid
 
 [Containments][14][Applets][237][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][14][Applets][237][Configuration][General]
 hoverAction=PreviewWindows
@@ -325,6 +327,7 @@ floatingGapHidingWaitsMouse=true
 hideFloatingGapForMaximized=true
 iconSize=16
 inConfigureAppletsMode=true
+lastDodgeVisibilityMode=4
 maxLength=60
 panelSize=25
 panelTransparency=15
@@ -357,7 +360,7 @@ minimizedTaskColoredDifferently=true
 lengthPadding=0.25
 
 [Containments][211]
-PreloadWeight=10
+PreloadWeight=0
 activityId=
 formfactor=2
 immutability=1
@@ -373,56 +376,63 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][211][Applets][212][Configuration]
-PreloadWeight=20
+PreloadWeight=5
 
 [Containments][211][Applets][213]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][211][Applets][213][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][211][Applets][214]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][211][Applets][214][Configuration]
-PreloadWeight=30
+PreloadWeight=7
 
 [Containments][211][Applets][219]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][211][Applets][219][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][211][Applets][220]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][211][Applets][220][Configuration]
-PreloadWeight=40
+PreloadWeight=27
 
 [Containments][211][Applets][222]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][211][Applets][222][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][211][Applets][223]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][211][Applets][223][Configuration]
-PreloadWeight=20
+PreloadWeight=2
 
 [Containments][211][Applets][228]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][211][Applets][228][Configuration]
-PreloadWeight=10
+PreloadWeight=0
+
+[Containments][211][Applets][239]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][211][Applets][239][Configuration]
+PreloadWeight=34
 
 [Containments][211][ConfigDialog]
 DialogHeight=866
