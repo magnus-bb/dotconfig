@@ -102,6 +102,8 @@ ENV vars are already set in `~/.zshrc`
 
 ### Zsh
 
+**TODO: check out oh my zsh plugins ** 
+
 ## Ubuntu
 Install Zsh with: 
 
@@ -216,6 +218,8 @@ Configuration is already included, and files are already installed in `.zsh/z/`.
 **File & filesystem explorer - type `ranger`.**
 
 This works extremely well with Kitty because of image previews and mouse support.
+
+**TODO: check out plugins, custom commands, previews, themes etc**
 
 #### Ubuntu
 Install with: 
